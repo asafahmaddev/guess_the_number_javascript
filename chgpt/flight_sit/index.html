@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Flight Schedule</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Airport Flight Schedule</h1>
+    </header>
+
+    <main>
+        <section id="flight-info">
+            <h2>Flight Times</h2>
+            <div class="message">
+                <p>Note: Due to runway restrictions, some flights may be delayed or rescheduled.</p>
+            </div>
+            <table id="flight-table">
+                <thead>
+                    <tr>
+                        <th>Flight</th>
+                        <th>Destination</th>
+                        <th>Scheduled Departure</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Flight information rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+
+        <button id="simulate-delay">Simulate Runway Restriction</button>
+    </main>
+
+    <!-- Link to External JavaScript -->
+    <script src="index.js"></script>
+</body>
+
+</html>

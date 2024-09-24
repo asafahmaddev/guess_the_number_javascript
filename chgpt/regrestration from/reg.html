@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="fname">Father's Name:</label>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="cnic">CNIC No:</label>
+            <input type="text" id="cnic" name="cnic" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <div class="form-actions">
+                <button type="reset">Cancel</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="reg.js"></script>
+</body>
+
+</html>
